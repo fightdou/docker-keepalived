@@ -8,6 +8,7 @@ ARG KEEPALIVED_VERSION=2.0.20
 # Download, build and install Keepalived
 RUN apk --no-cache add \
     autoconf \
+    socat \
     curl \
     gcc \
     ipset \
